@@ -54,3 +54,17 @@ h2{
     text-align: center;
     color: #025157; 
 }
+
+ul{
+    display: inline-block;
+}
+
+#logo{
+    width:5%;
+    height: 5%;
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+}

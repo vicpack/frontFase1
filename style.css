@@ -55,7 +55,7 @@ h2{
     color: #025157; 
 }
 
-ul{
+li{
     display: inline-block;
 }
 
@@ -68,3 +68,9 @@ ul{
 a{
     display: inline-block;
 }
+
+.header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }

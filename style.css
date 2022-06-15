@@ -59,7 +59,8 @@ h2{
 
 li{
     display: inline-block;
-    
+    color:#025157;
+    margin: 0 25px 0 25px;
 }
 
 /*#logo{
@@ -75,6 +76,8 @@ a{
 .header {
     margin: 40px 20px 20px 0;
     font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
   }
 
   .header > * {
@@ -95,16 +98,28 @@ a{
 
   .navbar{
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
-    font-weight: 500;
   }
 
   .actions{
-    width: 15%;
+    width: 80%;
     text-align: left;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 600px;
+    padding: 0 10px 0 10px;
+  }
+ 
+  .login{
+    color:#67b54b;
+  }
+
+  .start{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
   }
 
   .main {

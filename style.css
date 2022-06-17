@@ -136,3 +136,25 @@ a{
       font-size:100%;
     }
   }
+
+  
+  .publish h3 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 2rem;
+    color: #343434;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+   
+  }
+  
+  .publish > form p {
+    color: #025157;
+  }

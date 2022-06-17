@@ -145,8 +145,11 @@ a{
     color: #025157;
   }
   
+  .publish{
+    margin-left: 30px;  
+  }
   .publish > p {
-    font-size: 2rem;
+    font-size: 16px;
     color: #343434;
     margin-bottom: 20px;
   }
@@ -157,4 +160,11 @@ a{
   
   .publish > form p {
     color: #025157;
+  }
+
+  .promo{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 100px auto;
   }

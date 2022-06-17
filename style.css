@@ -1,184 +1,145 @@
-body { 
-    background-color:#fffbf7;
-}
-h1{
-    color: #025157;
-    text-align: center;
-    font-family: 'Kdam Thmor Pro', sans-serif;
+body {
+  background-color: #fffbf7;
 }
 
-p { 
-    color: #8b8b8bcc; 
-    font-family: verdana;
-    font-size: 2.5rem;
-    font-family: 'Pacifico', cursive;
+h1 {
+  color: #025157;
+  text-align: center;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-button { 
-    color: #fff;
-    background-color: #6abf4b;
+p {
+  color: #8b8b8bcc;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
 }
 
-
-#father{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    border: 1px solid #ffffff;
-}
-
-#son1{
-    max-width: 50%;
-    height: 100%;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-}
-
-#son2{
-    max-width: 50%;
-    height: 100%;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-}
-
-img{
-    width: 50%;
-    height: 50%;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-h2{
-    text-align: center;
-    color: #025157; 
-}
-
-li{
-    display: inline-block;
-    color:#025157;
-    margin: 0 25px 0 25px;
-}
-
-/*#logo{
-    width:5%;
-    height: 5%;
-    display: inline-block;
-}*/
-
-a{
-    display: inline-block;
+button {
+  color: #fff;
+  background-color: #025157;
 }
 
 .header {
-    margin: 40px 20px 20px 0;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-  }
+  /* margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  margin: 40px 20px 0;
+  font-size: 0;
+  font-family: sans-serif;
+}
 
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 45px;
-    height: 100%;
-    vertical-align: middle;
-  }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
 
-  .logo{
-    width: 15%;
-  }
+li {
+  display: inline;
+  margin: 0 25px 0;
+}
 
-  .logo > img{
-    width: 15%;
-  }
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 45px;
+  height: 100%;
+  vertical-align: middle;
+}
 
-  .navbar{
-    width: 70%;
-    text-align: center;
-    color: #025157;
-  }
+.logo {
+  width: 15%;
+}
 
-  .actions{
-    width: 80%;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 600px;
-  }
+.logo > img {
+  width: 15%;
+}
 
-  .actions > * {
-        margin: 0 10px;
-  }
- 
-  .login{
-    color:#67b54b;
-  }
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
 
-  .start{
-    color: #fff;
-    background-color: #67b54b;
-    padding: 12px 14px 12px 14px;
-    border: 0;
-    border-radius: 5px;
-  }
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
 
-  .main {
-    margin-top: 140px;
-    text-align: center;
-  }
+.actions > * {
+  margin: 0 10px;
+}
 
-  @media (min-width:600px) {
-    html {
-      font-size:100%;
-    }
-  }
+.actions a {
+  color: #67b54b;
+}
 
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.main {
+  margin-top: 285px;
+  text-align: center;
+}
+
+.publish {
+  /* container styles if any */
+  margin-left: 30px;
+}
+
+.publish h3 {
   
-  .publish h3 {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-size: 40px;
-    line-height: 48px;
-    color: #025157;
-  }
-  
-  .publish{
-    margin-left: 30px;  
-  }
-  .publish > p {
-    font-size: 16px;
-    color: #343434;
-    margin-bottom: 20px;
-  }
-  
-  .publish > form {
-   
-  }
-  
-  .publish > form p {
-    color: #025157;
-  }
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
 
-  .promo{
-    display: flex;
-    width: 70%;
-    align-items: center;
-    margin: 100px auto;
-    flex-direction:column;
-  }
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
 
-  
+.publish > form {
+  display: flex;
+}
 
-  .explanatory-video{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
 
-  .explanatory-video img{
-    width: 120px;
-    margin-top: 10px;
-  }
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+iframe {
+  display: flex;
+  margin: auto;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}

@@ -143,3 +143,14 @@ iframe {
   width: 120px;
   margin-top: 10px;
 }
+
+.abuelo{
+  background-color: #a1d683;
+  width: 150px;
+  height: 150px;
+
+}
+
+.papa >h3{
+  color:#025157;
+}

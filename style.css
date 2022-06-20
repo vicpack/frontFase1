@@ -144,13 +144,65 @@ iframe {
   margin-top: 10px;
 }
 
-.abuelo{
-  background-color: #a1d683;
-  width: 150px;
-  height: 150px;
-
+.papa >h3,h4{
+  color:#025157;
+  position: relative;
+  left: 30px;
 }
 
-.papa >h3{
-  color:#025157;
+.abuelo{
+  background-color: #a1d683;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: raw;
+}
+
+.papa{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+  align-items: left;
+}
+
+.papa > p{
+  position : relative;
+ color:black;
+ width: 60%;
+ font-family: 'calibri';
+ top:20px;
+ left: 30px;
+}
+
+.papa > img{
+  width: 60%;
+  position: relative;
+  top: 60px;
+  left: 30px;
+ }
+
+ .papa > button{
+  width: 20%;
+  position: relative;
+  top: 20px;
+  left: 30px;
+ }
+
+.papa_hermano{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: right;
+  width: 50%;
+  height: 70%;
+}
+
+.papa_hermano > img{
+  width: 40%;
+  height:60%;
+  position: relative;
+  top: 40px;
+  left:40px;
 }

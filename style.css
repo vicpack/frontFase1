@@ -265,6 +265,10 @@ iframe {
 .features{
   display: grid;
   /*grid-template-columns: 300px 300px;*/
-  grid-template-columns: repeat(3,1fr);
+  /*grid-template-columns: repeat(2,1fr);
+  height: 660px; 
+  grid-template-rows: repeat(2, 1fr);
   /*grid-template-columns: 1fr 1fr;*/
+  height: 660px; 
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }

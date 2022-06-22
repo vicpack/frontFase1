@@ -270,14 +270,35 @@ iframe {
   height: 660px; 
   grid-template-rows: repeat(2, 1fr);
   /*grid-template-columns: 1fr 1fr;*/
-  height: 660px; 
-  grid-template: repeat(2, 300px) / repeat(2, 700px);
+  padding: 5% 10%;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
 }
 
-.features > article{
-  background-color: #FFFFFF;
+
+.features #card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #ffff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features h3{
   position: relative;
-  top: 30px;
-  left: 70px;
+  left: 30px;
 }
 
+.features p{
+  position: relative;
+  left: 30px;
+}
+
+.features a{
+  color: #67B54B;
+  position: relative;
+  left: 30px;
+}

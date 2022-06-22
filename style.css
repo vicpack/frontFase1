@@ -263,6 +263,7 @@ iframe {
 }
 
 .features{
+  background-color: #025157;
   display: grid;
   /*grid-template-columns: 300px 300px;*/
   /*grid-template-columns: repeat(2,1fr);
@@ -270,5 +271,13 @@ iframe {
   grid-template-rows: repeat(2, 1fr);
   /*grid-template-columns: 1fr 1fr;*/
   height: 660px; 
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-template: repeat(2, 300px) / repeat(2, 700px);
 }
+
+.features > article{
+  background-color: #FFFFFF;
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+

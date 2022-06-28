@@ -316,7 +316,23 @@ iframe {
 .works > p {
   font-family: sans-serif;
   font-size: 1em;
+  color: #343434;
+  padding: 2em 20em;
+  
 }
 .works > button{
   background-color: #025157;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.wcontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.wcontainer > div > img{
+  width: 18em;
 }

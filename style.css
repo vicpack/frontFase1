@@ -336,7 +336,7 @@ iframe {
 }
 
 .wcontainer > div {
-  border-radius: 1px solid black;
+  border-radius: 10px;
   text-align: center;
 }
 

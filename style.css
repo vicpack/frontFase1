@@ -383,3 +383,23 @@ iframe {
    margin: auto;
   
 }
+
+.cuadrado{
+  width:200px;
+  height:200px;
+  background: #aaa;
+  animation-name: mianimacion;
+  animation-duration: 4s;
+  position: relative;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mianimacion {
+  0%{background: #aaa;left:0;top: 0px;}
+  25%{background:red;left:300px;top: 0;}
+  50%{background:green;left:300px;top:300px;}
+  75%{background:pink;left: 0px;top: 300px;}
+  100%{background:blue;left: 0px;top:0px;}
+}

@@ -384,6 +384,9 @@ iframe {
   
 }
 
+.texto-boton:hover{
+  background:#67B54B;
+}
 .cuadrado{
   width:200px;
   height:200px;

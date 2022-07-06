@@ -81,7 +81,6 @@ body {
   height: 130px;
   width: 130px;
   margin-bottom: 35px;
-  /* Aqui pondremos las reglas de @keyframes */
 }
 .flecha .flecha-contenedor {
   position: relative;
@@ -102,6 +101,23 @@ body {
 .flecha .flecha-contenedor .flecha-animada img {
   width: 130px;
   transform: rotate(-90deg);
+}
+@keyframes up-and-down {
+  0% {
+    top: 0; /* Aquí inicia la animación */
+  }
+  25% {
+    top: -30px; /* Empieza a moverse la animcación hacia abajo*/
+  }
+  50% {
+    top: -60px; /* El límite de abajo, después comienza a bajar*/
+  }
+  75% {
+    top: -30px; /* De regreso hacia arriba */
+  }
+  100% {
+    top: 0; /* Regresando al punto de inicio */
+  }
 }
 
 /*# sourceMappingURL=aboutUs.css.map */
